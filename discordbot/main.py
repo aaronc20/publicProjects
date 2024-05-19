@@ -47,11 +47,11 @@ async def on_message(message):
         embeddedStab = prepare_embed(msg, action_message)
         await message.channel.send(embed=embeddedStab)
       else:
-        await message.channel.send("mention somebody idiot")
+        await message.channel.send("mention somebody lol")
 
 
   if "sad" in msg.lower():
-    await message.channel.send("stay sad bitch")
+    await message.channel.send("stay sad")
 
   if 'hug me' in msg.lower():
     user_identification = message.author.id
@@ -67,7 +67,7 @@ async def on_message(message):
       await message.channel.send("hi bestie")
     else:
       random_person = message.author.name
-      await message.channel.send(f"who the fuk  R u {random_person}") 
+      await message.channel.send(f"who R u {random_person}") 
 
 def determine_target_id(msg):
   if msg.startswith('wateringhole stab'):
