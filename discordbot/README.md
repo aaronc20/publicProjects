@@ -3,5 +3,6 @@
 
 basic functionality:
 - respond to discord messages that mention it with certain key words
-- 
+- "hug" 🤗 or "stab" random users (sends a gif with a hug or an anime fight)
+- stayed active using UptimeRobot, a free web service
 
